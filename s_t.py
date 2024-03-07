@@ -22,7 +22,7 @@ image = Image.open('traductor.jpg')
 st.image(image)
 
 
-st.write("Toca el Botón y habla lo que quires traducir")
+st.write("Hable papi que yo le traduzco, solo ¡DALE!")
 
 stt_button = Button(label=" ¡DALE! ", width=200)
 
