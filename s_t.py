@@ -13,8 +13,8 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("Kermit translator")
-st.subheader("tu traductor de confianza")
+st.title("Interfaces Multimodales")
+st.subheader("TRADUCTOR")
 
 
 image = Image.open('traductor.jpg')
@@ -22,9 +22,9 @@ image = Image.open('traductor.jpg')
 st.image(image)
 
 
-st.write("Hable papi que yo le traduzco, solo ¡DALE!")
+st.write("Toca el Botón y habla lo que quires traducir")
 
-stt_button = Button(label=" ¡DALE! ", width=200)
+stt_button = Button(label=" Inicio ", width=200)
 
 stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
